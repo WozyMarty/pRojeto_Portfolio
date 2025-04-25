@@ -1,0 +1,228 @@
+
+button{
+	font-family: Roboto;
+	font-size: 18px;
+	font-weight: bold;
+	position:relative;
+	padding: 20px 20px 20px 20px;
+	margin: 20px 20px 20px 20px;
+	border:none;
+	border-radius: 20px;
+	box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.50);
+	transition: 0.15s;
+}
+
+.column1{
+	margin: 10px 15px 15px 2px;
+	height: 900px;
+	width: 150px;
+	position: absolute;
+	background-color: blue;
+	box-shadow: 10px 10px 10px rgba(0,0,0,0.5);
+	opacity: 0.8;
+}
+
+.column2{
+	margin: 210px 15px 15px 185px;
+	padding: 10px 10px 250px 170px;
+	height: 100px;
+	width: 150px;
+	display: inline-block;
+	position: absolute;
+	background-color: #F78C1E;
+	box-shadow: 10px 10px 10px rgba(0,0,0,0.5);
+	opacity: 0.8;
+}
+
+.GoogleLogo{
+	position: absolute;
+	display: inline-block;
+	border-radius: 10px;
+	padding: 20px 20px 15px 20px;
+	margin: 20px 20px 20px 30px;
+	background-color: #F78C1E;
+	box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.50);
+	transition: 0.15s;
+}
+
+.GoogleLogo:hover,
+.YouTubeLogo:hover,
+.GmailLogo:hover,
+.MapsLogo:hover,
+.GNewsLogo:hover{
+	opacity:0.7;
+}
+.GoogleLogo:active,
+.YouTubeLogo:active,
+.GmailLogo:active,
+.MapsLogo:active,
+.GNewsLogo:active{
+	opacity:0.5;
+}
+
+.YouTubeLogo{
+	margin-top: 250px;
+	background-color:red;
+	color: white;
+}
+
+.GmailLogo{
+	padding: 10px 10px 10px 10px;
+}
+.GmailPNG{
+	width: 95px;
+}
+
+.MapsLogo{
+	display: inline-block;
+	margin-left: 40px;
+	padding: 10px 10px 10px 10px;
+}
+.MapsPNG{
+	display: inline-block;
+	width: 50px;
+}
+
+.GNewsLogo{
+	display: inline-block;
+	margin-left: 40px;
+	padding: 10px 10px 10px 10px;
+}
+
+.GNewsPNG{
+	display: inline-block;
+	width: 50px;
+}
+
+
+
+			
+			.text1,.text2{
+				display: inline-block;
+				position: relative;
+				font-family: Arial;
+				//border-radius: 10px;
+				box-shadow:10px 10px 10px rgba(0,0,0,0.15);
+				transition: text-decoration 0,15s;
+				padding: 10px 70px 20px 30px;
+				margin: 0px 10px 5px 200px;
+				background-color: white;
+				cursor: pointer;
+			}
+			
+			.text1{
+				margin-top: 0px;
+				padding-bottom: 35px;
+				width: 200px;
+			}
+			.title-text1{
+				position: relative;
+				font-size: 14px;
+				width: 290px;
+				padding-top: 5px;
+				padding-left: 10px;
+				//border-radius: 10px;
+				background-color: white;
+				margin: 300px 10px 0px 200px;
+				box-shadow:10px 10px 10px rgba(0,0,0,0.15);
+			}
+			
+			.title-text2{
+				position: relative;
+				font-size: 14px;
+				width: 290px;
+				padding-top: 5px;
+				padding-left: 10px;
+				//border-radius: 10px;
+				background-color: white;
+				margin: 5px 10px 0px 200px;
+				box-shadow:10px 10px 10px rgba(0,0,0,0.15);
+			}
+			
+			.text2{
+				width: 150px;
+				padding-right: 120px;
+			}
+			
+			.text1:hover,.text2:hover{
+				text-decoration: underline;
+			}
+			
+a{
+	color: black;
+	text-decoration: none;
+}
+.YoutubeList{
+	margin: 200px 10px 10px 10px;
+	margin-left: 1000px;
+	width: 380px;
+	height: 480px;
+	background-color: blue;
+	display:grid;
+	row-gap: 30px;
+	grid-template-rows: 30px 100px 100px 100px;
+	box-shadow: 10px 10px 10px rgba(0,0,0, 0.5);
+}
+
+.Yblock1,.Yblock2,.Yblock3{
+	box-shadow: 10px 10px 10px rgba(0,0,0, 0.5);
+	font-family: Arial;
+	display: inline-block;
+	border-radius: 10px;
+	width: 300px;
+	margin: 32px 10px 10px 26px;
+	padding: 8px 20px 100px 8px;
+} 
+.Yblock2{
+}
+.Yblock3{
+}
+.Yblock1:hover,
+.Yblock2:hover,
+.Yblock3:hover{
+	text-decoration: underline;	
+}
+.YoutubeLOGO{
+	display: inline-block;
+	margin: 15px 10px 10px 10px;
+	width: 60px;
+}
+			
+.thumbnail1,.thumbnail2,.thumbnail3{
+	position: absolute;
+	width: 140px;
+	margin-left: 30px;
+	border-radius: 10px;
+}
+
+.timer1,.timer2,.timer3{
+	display:in-line block;
+	background-color: black;
+	opacity: 0.8;
+	color: white;
+	font-size: 15px;
+	border-radius: 6px;
+	margin: 60px 10px 10px 130px;
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
+.Descricao{
+	width: 400px;
+	margin: 150px 50px 50px 400px;
+	background-color: #D41B1B;
+}
+
+.p1{
+	margin: 80px 20px 20px 50px;
+	width: 300px;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.p2{
+	margin: 100px 20px 20px 50px;
+	width: 300px;
+	font-size: 20px;
+	font-weight: bold;
+}
